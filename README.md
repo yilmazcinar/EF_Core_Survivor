@@ -1,18 +1,32 @@
 
 # EF Core Survivor
 
-Bu proje, EF Core kullanarak veri tabanı işlemlerini yönetmek için bir kılavuz ve örnek projedir. 
+EF Core Survivor is a .NET 8 Web API project that demonstrates the use of Entity Framework Core for managing competitors and categories in a database.
 
-## İçindekiler
+## Features
 
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
+- List all competitors
+- List a competitor by ID
+- List competitors by category
+- Add a new competitor
+- Update an existing competitor
+- Soft delete a competitor
 
-## Kurulum
+## Technologies Used
 
-Projeyi yerel makinenize klonlayın:
+- .NET 8
+- Entity Framework Core
+- ASP.NET Core Web API
+- SQL Server
 
-```bash
-git clone https://github.com/yilmazcinar/EF_Core_Survivor.git
+## Getting Started
+
+### Prerequisites
+
+- .NET 8 SDK
+- SQL Server
+
+### Installation
+
+1. Clone the repository:
+    
